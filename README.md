@@ -1,1 +1,1 @@
-# Mentalrsc
+# Mental resources
