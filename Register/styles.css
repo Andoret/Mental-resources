@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+background: rgb(137,226,223);
+background: linear-gradient(90deg, rgb(114, 205, 201) 13%, rgba(171,184,242,1) 33%, rgba(18,106,198,1) 100%);
+font-family: 'Times New Roman';
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 300px;
+    margin-left: 120px;
+}
+p{
+    font-size: 25px;
+}
+h3{
+ font-size: 30px;
+ margin-top: 30px;
+ margin-left: 25px;
+ color: rgb(240, 246, 254);
+}
+.glyphicon-pencil{
+margin-top: 25px;
+font-size: 40px;
+color: white;
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.757);
+    opacity: 6;}
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px rgb(106, 97, 201);
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+}
+.label{
+    font-weight: normal;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 100px;
+    color: white;
+
+}
+.form-control{
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 19px;
+    
+    }
+
+    
+
+.form-select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 110px;
+    margin-right: 100px;
+    background: transparent;
+    color: white;
+    max-width:50%;
+    height: 150%;
+    
+}
+.option-control{
+    background-color:rgba(82, 145, 212, 0.775);
+    text-align: center;
+    border-radius: 1px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+.lb-1{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 18px;
+} 
+.btn-primary{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(80, 78, 232);
+    border-color: rgb(80, 78, 232);
+    
+}
+button:hover{background-color:rgb(64, 62, 179); }

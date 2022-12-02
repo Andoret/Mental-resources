@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ingreso de datos para formulario">
+    <meta name="author" content="Daniel Gonzalez">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;500;600&display=swap" rel="stylesheet">
+    <title>Registrate</title>
+    <link rel="shortcut icon" href="./images/vecteezy_brain_1201180.png">
+</head>
+<body>
+<form action="register.php" method="post">
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-left"><b>Regístrate</b></h1>
+                <p class="text-left">¡¡Y asi tendras acceso a tu  primera cita totalmente gratis!!</p>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>Formulario de regístro</h3>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="glyphicon glyphicon-pencil"></span> <!--poner icono de registro-->
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                
+                <label class="label col-md-7 control-label">Tipo de documento</label>
+                
+                <select class="form-select col-md-10" name="doc_type"> 
+                    
+                    <option selected    class="option-control">Selecciona un tipo de documento</option>
+                    <option value="T.i" class="option-control">Tarjeta de identidad</option>
+                    <option value="C.c" class="option-control">Cédula de ciudadania</option>
+                    <option value="C.e" class="option-control">Cédula de extranjería</option>
+                    <option value="P.a" class="option-control">Pasaporte</option>
+                </select>
+                
+                </div>
+                <div class="row">
+                <div class="col-md-10">
+                                          
+                <input type="number"  class="form-control fom bg-transparent text-white" placeholder="Numero de documento" required  name="doc_num">
+                         
+                </div>
+                <div class="row">
+                <div class="col-md-10">
+                                     
+                    <input type="text" name="name" class="form-control bg-transparent text-white" placeholder="Nombre(s)" required >
+                    
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                         
+                        <input type="text"  name="last_name" class="form-control bg-transparent text-white" placeholder="Apellido(s)" required >
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                         
+                        <input type="email" name="email" class="form-control bg-transparent text-white"  placeholder="Correo Electronico" required >
+                         
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                         
+                        <input type="password" name="password" class="form-control bg-transparent text-white" placeholder="Crea una contraseña" required >
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                 
+                        <input type="password"  name="cpassword" class="form-control bg-transparent text-white" placeholder="Confirma tu contraseña" required >
+                         
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                    
+                        <input type="checkbox" name="term_check" class="form-check-input mt-5" "><label class="lb-1"> Estoy de acuerdo con los </label><a class="text-white" href="#"> Terminos y condiciones </a> 
+                         
+                    </div>
+                    <div class="col-md-10">
+                        <input type="submit" class="btn btn-primary" value="Registrarse">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
